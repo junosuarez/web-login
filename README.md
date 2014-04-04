@@ -15,13 +15,13 @@ bare-bones browser-based identity for the web
 
 ```js
 
-navigation.login() => Promise<Token>
+navigator.login() => Promise<Token>
 // Token is a string of a cryptographically secure token representing the user's identity
 ```
 
 ## example
 ```js
-navigation.login().then(function (token) {
+navigator.login().then(function (token) {
 
   // token = eg 7a14d72ae2c75497c7533e63a6ca2720888b204e
 
