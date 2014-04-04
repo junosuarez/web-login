@@ -36,3 +36,7 @@ navigation.login().then(function (token) {
 })
 .then(loggedInMain)
 ```
+
+## request for contributions
+
+feedback, issues, and pull requests welcome.
