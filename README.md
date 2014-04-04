@@ -23,6 +23,8 @@ navigation.login() => Promise<Token>
 ```js
 navigation.login().then(function (token) {
 
+  // token = eg 7a14d72ae2c75497c7533e63a6ca2720888b204e
+
   return http.post({
     location: 'https://example.com/sessions',
     data: {token: token}
