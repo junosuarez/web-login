@@ -40,3 +40,5 @@ navigator.login().then(function (token) {
 ## request for contributions
 
 feedback, issues, and pull requests welcome.
+
+Come chat about it in IRC in #weblogin on irc.freenode.net
