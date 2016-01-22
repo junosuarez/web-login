@@ -21,7 +21,7 @@ navigator.login() => Promise<Token>
 
 ## example
 
-See the [demo](http://jden.us/web-login-prollyfill/).
+See the [demo](https://jden.github.io/web-login-prollyfill/).
 
 ```js
 navigator.login().then(function (token) {
